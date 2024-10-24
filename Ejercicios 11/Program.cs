@@ -34,6 +34,7 @@ else if (h == "impares")
 }
 
 Console.Write("el mas duro de la nueva ");
+Console.Write("roro ");
 
 
 
