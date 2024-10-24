@@ -33,3 +33,7 @@ else if (preferencia == "impares")
 {
     Console.WriteLine($"Hay {conteoImpares} números impares en el arreglo.");
 }
+else
+{
+    Console.WriteLine("Preferencia no reconocida.");
+}
