@@ -33,3 +33,6 @@ else if (put == "impares")
 
     c++;
 }
+
+
+//no finalizo
