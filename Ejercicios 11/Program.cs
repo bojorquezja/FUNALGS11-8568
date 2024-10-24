@@ -1,4 +1,4 @@
-﻿Console.WriteLine("ingrese la cantidad de elementos = ");
+﻿Console.Write("ingrese la cantidad de elementos = ");
 int r = int.Parse(Console.ReadLine());
 int[] valor = new int[r];
 Random ra = new Random();
@@ -9,27 +9,28 @@ for (int i = 0; i < valor.Length; i++)
 
 
     if (valor[i] % 2 == 0)
-        {
+    {
             p++;
-        }
-        else
-        {
+       
+    }
+    else
+    {
             im++;
-        }
+    }
 
     
 
 }
-Console.Write("¿Te gustan los pares o impares? = ");
+Console.Write("\n¿Te gustan los pares o impares? = ");
 string h = Console.ReadLine();
 if (h == "pares")
 {
-    Console.WriteLine("pares = " + p);
+    Console.WriteLine("\nLos numeros pares son = " + p);
     
 }
-if (h == "impares")
+else if (h == "impares")
 {
-    Console.WriteLine("impares = " + im);
+    Console.WriteLine("\nLos numeros impares son = " + im);
 }
 
 
