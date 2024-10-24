@@ -1,27 +1,23 @@
-﻿string[] edificio1 = new string[5];
-for(int x=0; x<edificio1.Length; x++) {
-    Console.WriteLine($"Ingrese nombre {x+1}:");
-    edificio1[x] = Console.ReadLine();
+﻿Console.WriteLine("Ingresar cantidad de elementos:");
+int n = int.Parse(Console.ReadLine());
+int[] numeros = new int[n];
+Random ran = new Random();  
+
+for (int i = 0; i < n; i++){
+    numeros[i] = ran.Next(50, 98 + 1);
 }
+string todos = string.Join(",", numeros);
+Console.WriteLine($"numeros: {todos}");
 
-for (int x = 0; x < edificio1.Length; x++) {
-    Console.WriteLine(edificio1[x]);
-}
+Console.Write("Cual prefieres I o P: ");
+string pref = Console.ReadLine();
 
-Console.WriteLine();
-
-string[] edificio2 = { "tu", "papas","hermano", "tio", "primo" };
-foreach (string e in edificio2) {
-    Console.WriteLine(e);
-}
-
-//Console.WriteLine(edificio1[5]);    //error por no existir
-
-Console.WriteLine("A quien busca en edificio 2:");
-string bus = Console.ReadLine().ToLower();
-for (int x = 0; x < edificio2.Length; x++) {
-    if (edificio2[x] == bus) {
-        Console.WriteLine($"Está en el piso {x+1}");
-        break;
+for (int i = 0; i < n; i++){
+    if (numeros[i] % 2 == 0 && pref == "P") {
+        Console.WriteLine(numeros[i]);
+    }else{
+        if (numeros[i] % 3 == 0 && pref == "I"){
+            Console.WriteLine(numeros[i]);
+        }
     }
 }
