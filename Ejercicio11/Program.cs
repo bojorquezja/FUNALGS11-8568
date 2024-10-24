@@ -25,3 +25,11 @@ foreach (int numero in arreglo)
         conteoImpares++;
 }
 Console.WriteLine();
+if (preferencia == "pares")
+{
+    Console.WriteLine($"Hay {conteoPares} números pares en el arreglo.");
+}
+else if (preferencia == "impares")
+{
+    Console.WriteLine($"Hay {conteoImpares} números impares en el arreglo.");
+}
