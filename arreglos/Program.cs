@@ -1,4 +1,4 @@
-﻿string[] edificio1 = new string[5];
+﻿/*string[] edificio1 = new string[5];
 for(int x=0; x<edificio1.Length; x++) {
     Console.WriteLine($"Ingrese nombre {x+1}:");
     edificio1[x] = Console.ReadLine();
@@ -24,4 +24,7 @@ for (int x = 0; x < edificio2.Length; x++) {
         Console.WriteLine($"Está en el piso {x+1}");
         break;
     }
-}
+}*/
+
+
+
