@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arreglos", "arreglos\arreglos.csproj", "{6E34C19B-C0F6-42EA-A47B-7CDD788A2AAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arreglos", "arreglos\arreglos.csproj", "{6E34C19B-C0F6-42EA-A47B-7CDD788A2AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "semana12", "semana12\semana12.csproj", "{5F46AEF0-290B-4097-B648-E0618144C9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insertavalor", "insertavalor\insertavalor.csproj", "{35BAAB1B-CFCE-4262-A971-E4BFCBCC7C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6E34C19B-C0F6-42EA-A47B-7CDD788A2AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E34C19B-C0F6-42EA-A47B-7CDD788A2AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E34C19B-C0F6-42EA-A47B-7CDD788A2AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F46AEF0-290B-4097-B648-E0618144C9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F46AEF0-290B-4097-B648-E0618144C9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F46AEF0-290B-4097-B648-E0618144C9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F46AEF0-290B-4097-B648-E0618144C9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BAAB1B-CFCE-4262-A971-E4BFCBCC7C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BAAB1B-CFCE-4262-A971-E4BFCBCC7C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BAAB1B-CFCE-4262-A971-E4BFCBCC7C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BAAB1B-CFCE-4262-A971-E4BFCBCC7C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
